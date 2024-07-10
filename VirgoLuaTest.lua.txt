@@ -1,8 +1,8 @@
-local NotificationLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/lobox920/Notification-Library/Main/Library.lua"))()
-
 function checker5()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/JaerenBugluar/ServerChecker/main/ServerChecker2.lua"))()
 end
+
+local NotificationLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/lobox920/Notification-Library/Main/Library.lua"))()
 
 NotificationLibrary:SendNotification("Warning", "Script Loading...", 10)
 NotificationLibrary:SendNotification("Warning", "Enable Fast Mode Or Fix Lag For Use Script Smoother", 10)
@@ -2290,7 +2290,7 @@ ImageButton.BorderSizePixel = 0
 ImageButton.Position = UDim2.new(0.5, 10, 0, 10) 
 ImageButton.AnchorPoint = Vector2.new(0.5, 0) 
 ImageButton.Size = UDim2.new(0, 40, 0, 40)
-ImageButton.Image = "rbxassetid://18403615009"
+ImageButton.Image = "rbxassetid://18403614991"
 
 UICorner.CornerRadius = UDim.new(1, 0) 
 UICorner.Parent = ImageButton
